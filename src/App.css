@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 5vh;
+ 
 }
 
 .App-logo {
@@ -35,4 +39,180 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* Iteration 1 */
+
+.bolded{
+  font-weight: bold;
+}
+
+.id-card{
+  display: flex;
+  align-items: flex-start;
+  border-style: solid  ;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.profile-img{
+  margin: 1vh;
+
+  width: 80% ;
+}
+
+.body-text>p{
+  font-size: 14px;
+  margin: 0;
+
+}
+.body-text{
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Iteration 2 */
+.greeting-box{
+  display: flex;
+  align-items: flex-start;
+  border-style: solid  ;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding-left: 2vw;
+}
+
+.greeting-text{
+  font-weight:bold ;
+  font-size: 20px;
+}
+
+/* Iteration 4 */
+
+.box-color{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-style:  solid  ;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding-left: 2vw;
+  padding-top: 4vh;
+  height: 12vh;
+  
+  font-weight:bold ;
+}
+
+.box-color> p{
+  color: white;
+  margin: 0em;
+  
+}
+/* Iteration 5 */
+.credit-card{
+  display: flex;
+  flex-direction: column;
+  width: 22vw;
+  height: 22vh;
+  border-radius: 5%;
+  margin:0;
+
+}
+.credit-card-container{
+
+  display: flex;
+  margin: 5% 2% 5% 2%;
+  justify-content: space-evenly;
+}
+
+#card-logo{
+  width: 14.5%;
+  height: 11.5%;
+  margin-left: 80%;
+  margin-top: 3%;
+  margin-bottom: 0;
+}
+
+.card-number{
+  font-size: 1.6rem;
+  margin-top: 0;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+}
+.card-number>span{
+  font-size: 3rem;
+  font-weight:600;
+  letter-spacing: .4rem;
+}
+.text-box{
+  margin: 0;
+  display: flex;
+  margin-left: 10%;
+  font-size: 1rem;
+}
+
+.text-box>p{
+  margin-top: 0;
+}
+.bank-name{
+  margin-left: 3%;
+}
+
+.card-name{
+  margin: 0;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 0;
+}
+
+/* Iteration 6 */
+.stars-size{
+  font-size: 4rem;
+  
+}
+
+/* Iteration 7 */
+
+.driver-container{
+  background-color: rgb(59, 59, 168);
+  border-radius: 3%;
+  display: flex;
+  margin-left: 17%;
+  align-items: center;
+  height: 17vh;
+  width: 60%;
+
+}
+.driver-text-container{
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+}
+
+.driver-container>img{
+  border-radius: 50%;
+  width: 13.5%;
+  height: 72%;
+  margin-left: 30%;
+  margin-right: 2%;
+  
+  
+}
+.driver-name{
+  margin: 0;
+  margin-top:25% ;
+  
+  color: white;
+  font-weight: bold;
+}
+.driver{
+  font-size: 2rem;
+  border: 0;
+  color: white;
 }
