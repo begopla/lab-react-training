@@ -6,8 +6,15 @@ import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
+import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
+import Dice from './components/Dice';
+import Carousel from './components/Carousel';
+import NumbersTable from './components/NumbersTable';
+import FaceBook from './components/FaceBook';
 
 function App() {
+
   return (
     <div className="App">
       <IdCard
@@ -70,14 +77,18 @@ function App() {
           color="white"
         />
       </section>
+      <br />
+      <br />
       <hr />
-      
-      <Rating>0</Rating>
-      <Rating>1.49</Rating>
-      <Rating>1.5</Rating>
-      <Rating>3</Rating>
-      <Rating>4</Rating>
-      <Rating>5</Rating>
+      <br />
+      <div style={{ backgroundColor: 'black' }}>
+        <Rating>0</Rating>
+        <Rating>1.49</Rating>
+        <Rating>1.5</Rating>
+        <Rating>3</Rating>
+        <Rating>4</Rating>
+        <Rating>5</Rating>
+      </div>
 
       <hr />
       <br />
@@ -90,7 +101,7 @@ function App() {
           licensePlate: 'CO42DE',
         }}
       />
-      <br/>
+      <br />
       <DriverCard
         name="Dara Khosrowshahi"
         rating={4.9}
@@ -101,7 +112,33 @@ function App() {
         }}
       />
       <br />
-      <hr / >
+      <hr />
+      <LikeButton />
+      <br />
+      <hr />
+      <ClickablePicture/>
+      <br />
+      <hr />
+      <Dice />
+      <br />
+      <hr />
+      <br />
+      <Carousel
+        images={[
+          'https://randomuser.me/api/portraits/women/1.jpg',
+          'https://randomuser.me/api/portraits/men/1.jpg',
+          'https://randomuser.me/api/portraits/women/2.jpg',
+          'https://randomuser.me/api/portraits/men/2.jpg',
+        ]}
+      />
+      <br />
+      <hr />
+      <NumbersTable limit={12} />
+      <br />
+      <hr />
+      <FaceBook 
+      />
+
     </div>
   );
 }

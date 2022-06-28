@@ -6,16 +6,6 @@
  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -119,36 +109,39 @@
   display: flex;
   flex-direction: column;
   width: 22vw;
-  height: 22vh;
-  border-radius: 5%;
+  height: 25vh;
+  border-radius: 3%;
   margin:0;
 
 }
 .credit-card-container{
 
   display: flex;
-  margin: 5% 2% 5% 2%;
+  margin: 5% 1% 5% 1%;
   justify-content: space-evenly;
 }
 
 #card-logo{
-  width: 14.5%;
-  height: 11.5%;
+  width: 13%;
+  height: 11%;
   margin-left: 80%;
-  margin-top: 3%;
+  margin-top: 2%;
   margin-bottom: 0;
 }
 
 .card-number{
   font-size: 1.6rem;
   margin-top: 0;
+  margin-bottom: 0;
   font-weight: 600;
   letter-spacing: 0.3rem;
 }
 .card-number>span{
+  margin-top: 0;
+  margin-bottom:0 ;
   font-size: 3rem;
   font-weight:600;
-  letter-spacing: .4rem;
+  letter-spacing: .3rem;
 }
 .text-box{
   margin: 0;
@@ -158,10 +151,11 @@
 }
 
 .text-box>p{
-  margin-top: 0;
+  margin-top: 1.5vh;
+  margin-bottom: 0;
 }
 .bank-name{
-  margin-left: 3%;
+  margin-left: 15%;
 }
 
 .card-name{
@@ -215,4 +209,206 @@
   font-size: 2rem;
   border: 0;
   color: white;
+}
+
+/* Iteration 10 */
+.dice-image{
+  width: 20vw;
+
+}
+/* Iteration 11 */
+.carousel-arrow{
+  width: 2vw;
+}
+
+/* Iteration 12 */
+.number-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.par-box{
+  background-color: red;
+  width: 14vw;
+  height: 20vh;
+  font-size: 5rem;
+  border: 4px solid;
+}
+
+.impar-box{
+  width: 14vw;
+  height: 20vh;
+  font-size: 5rem;
+  border: 4px solid;
+}
+
+/* Iteration 13 */
+
+.user-picture{
+  border: 3px solid black; 
+  padding: 2%;
+  display: flex;
+  margin-bottom: 3%;
+  
+}
+.text{
+  margin:0;
+  display: flex;
+  ;
+}
+
+.text-container{
+  margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+
+}
+.text-property {
+  font-weight: 500 ;
+  padding-left: 1rem;
+}
+
+/* Iteration 14 */
+.button-container{
+  display: flex;
+}
+.button-container > button{
+  margin-right: 1rem;
+}
+.toggle-view{
+display: none ;
+}
+.red{
+  color: rgb(77, 15, 15);
+  font-weight: bold;
+}
+
+.add-background{
+  background-color: rgb(112, 112, 160);
+}
+
+/* Iteration 15 */
+
+
+
+@media only screen and (max-width: 414px){
+
+  /* Iteration 5 */
+  .credit-card{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 8vh;
+    border-radius: 8%;
+    margin:0;
+  
+  }
+  .credit-card-container{
+      display: flex;
+    margin: 2% 1% 2% 1%;
+    justify-content: space-between;
+  }
+  
+  #card-logo{
+    width: 14.5%;
+    height: 11.5%;
+    margin-left: 80%;
+    margin-top: 3%;
+    margin-bottom: 0;
+  }
+  
+  .card-number{
+    font-size: 0.5rem;
+    margin-top: 0;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    
+  }
+  .card-number>span{
+    font-size: 0.5rem;
+    font-weight:bold;
+    letter-spacing: .1rem;
+  }
+  .text-box{
+    margin: 0;
+    display: flex;
+    margin-top: 0.7vh;
+    margin-left: 8%;
+    font-size: 0.5rem;
+  }
+  
+  .text-box>p{
+    margin-top: 0;
+  }
+  .bank-name{
+    margin-left: 4%;
+  }
+  
+  .card-name{
+    margin: 0;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 0;
+    font-size: 0.5rem;
+  }
+  /* Iteration 7 */
+
+.driver-container{
+  background-color: rgb(59, 59, 168);
+  border-radius: 3%;
+  display: flex;
+  margin-left:0;
+ width: 100%;
+  
+
+
+}
+.driver-text-container{
+  display: flex;
+  flex-direction: column;
+  height: 28vh;
+  width: 50%;
+}
+
+.driver-container>img{
+  border-radius: 50%;
+  width: 20%;
+  height: 72%;
+  margin-left: 15%;
+  margin-right: 2%;
+  
+  
+}
+.driver-name{
+  margin: 0;
+  margin-top:26% ;
+  
+  color: white;
+  
+}
+.driver{
+  font-size: 1.4rem;
+  border: 0;
+  color: white;
+}
+  .clickable-image{
+    width:40vw;
+  }
+
+  .par-box{
+    background-color: red;
+    width: 15vw;
+    height: 10vh;
+    font-size: 3rem;
+    border: 4px solid;
+  }
+  
+  .impar-box{
+    width: 15vw;
+    height: 10vh;
+    font-size: 3rem;
+    border: 4px solid;
+  }
+
+  
 }
